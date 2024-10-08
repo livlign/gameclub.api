@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.GameClubAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.GameClubAPI.props",
+      "PackagePath": "build\\GameClubAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GameClubAPI.props",
+      "PackagePath": "buildMultiTargeting\\GameClubAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GameClubAPI.props",
+      "PackagePath": "buildTransitive\\GameClubAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

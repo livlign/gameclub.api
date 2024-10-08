@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "nJmqx6YkjceffRt0UoOsWDkrVkGoPV1T4sV4WuYiGeU=",
+  "Source": "GameClubAPI",
+  "BasePath": "_content/GameClubAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameClubAPI/wwwroot",
+      "Source": "GameClubAPI",
+      "ContentRoot": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/",
+      "BasePath": "_content/GameClubAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/css/site.css",
+      "SourceId": "GameClubAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/",
+      "BasePath": "_content/GameClubAPI",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/index.html",
+      "SourceId": "GameClubAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/",
+      "BasePath": "_content/GameClubAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/js/site.js",
+      "SourceId": "GameClubAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/linh/Documents/prjs/gameclub/GameClubAPI/wwwroot/",
+      "BasePath": "_content/GameClubAPI",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}

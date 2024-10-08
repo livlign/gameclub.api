@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GameClubAPI</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>GameClubAPI</h1>
+
+    <h2 id="counter"></h2>
+
+    <div id="addForm" class="margin-bottom-20 form">
+        <form action="javascript:void(0);" method="POST" onsubmit="addClub()">
+            <div class="form-element">
+                <input class="form-input" type="text" id="add-club-name" required maxlength="128" placeholder="Name">
+            </div>
+            <div class="form-element">
+                <textarea class="form-input" type="text" id="add-club-description" maxlength="512" placeholder="Description" rows="3"></textarea>    
+            </div>
+            <input type="submit" value="Add club">
+            <input type="button" value="Seed clubs" onclick="seedClubs()">
+        </form>
+    </div>
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isComplete">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>    
+
+    <div class="searchClub">
+        <input type="text" class="searchBox" id="searchClubKeyword" placeholder="search">
+        <input type="button" value="Search" onclick="searchClub()">
+    </div>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+        <tbody id="list-clubs"></tbody>
+    </table>
+    <br>
+    Pages
+    <div id="clubPages" class="paging">
+    </div>
+
+    <hr>
+    <div id="divEvents">        
+        <p id="eventClubText"></p>
+        <p id="counterEvents"></p>
+        <div id="addEventForm" class="margin-bottom-20 form">
+            <form action="javascript:void(0);" method="POST" onsubmit="addEvent()">
+                <div class="form-element">
+                    <input class="form-input" type="text" id="add-event-title" required maxlength="128" placeholder="Title">
+                </div>
+                <div class="form-element">
+                    <input class="form-input" type="date" id="add-event-date" required placeholder="Scheduled Date">
+                </div>
+                <div class="form-element">
+                    <textarea class="form-input" type="text" id="add-event-description" maxlength="512" placeholder="Description" rows="2"></textarea>    
+                </div>
+                <input type="submit" value="Add event">
+                <input type="button" value="Seed Events" onclick="seedEvents()">
+            </form>
+        </div>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+            </tr>
+            <tbody id="list-events"></tbody>
+        </table>
+        <div id="eventPages" class="paging">
+        </div>
+    </div>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getClubs();
+    </script>
+</body>
+</html>
